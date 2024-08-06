@@ -1,1 +1,40 @@
-'use strict';const _0x11c883=_0x9a27;function _0x7037(){const _0x3f34cc=['║❒\x20𝐑𝐞𝐩𝐨\x20https://github.com/Keithkeizzah/HUNCHO-MD','sendMessage','134290FYsvZf','https://telegra.ph/file/4113bcee02a1609e0c665.mp4','\x20\x20\x20\x20\x20\x20\x20║❒\x20𝐘𝐨𝐮𝐓𝐮𝐛𝐞\x20https://www.youtube.com/@keithkeizzah','log','1526448DFpJVl','10YXFPYW','76566lEuGmi','279zZxYYG','Commande\x20saisie\x20!!!s','mon\x20test','182950ZrtpIu','316146MwvTpd','repo','37196236nuqXkA','6747482GMHOAD','../framework/france','225piJbGm','8CgiVWb'];_0x7037=function(){return _0x3f34cc;};return _0x7037();}(function(_0x3c17dc,_0x37732d){const _0x5c1f4f=_0x9a27,_0x2e6cea=_0x3c17dc();while(!![]){try{const _0x2779cd=parseInt(_0x5c1f4f(0x129))/0x1+-parseInt(_0x5c1f4f(0x12e))/0x2*(parseInt(_0x5c1f4f(0x120))/0x3)+-parseInt(_0x5c1f4f(0x12d))/0x4+parseInt(_0x5c1f4f(0x125))/0x5*(-parseInt(_0x5c1f4f(0x12f))/0x6)+parseInt(_0x5c1f4f(0x123))/0x7*(-parseInt(_0x5c1f4f(0x126))/0x8)+parseInt(_0x5c1f4f(0x130))/0x9*(-parseInt(_0x5c1f4f(0x11f))/0xa)+parseInt(_0x5c1f4f(0x122))/0xb;if(_0x2779cd===_0x37732d)break;else _0x2e6cea['push'](_0x2e6cea['shift']());}catch(_0xfc383b){_0x2e6cea['push'](_0x2e6cea['shift']());}}}(_0x7037,0x7a8a8));function _0x9a27(_0x2b8af3,_0x4b1042){const _0x7037a1=_0x7037();return _0x9a27=function(_0x9a2705,_0x45759b){_0x9a2705=_0x9a2705-0x11e;let _0x2fdb6a=_0x7037a1[_0x9a2705];return _0x2fdb6a;},_0x9a27(_0x2b8af3,_0x4b1042);}Object['defineProperty'](exports,'__esModule',{'value':!![]});const {france}=require(_0x11c883(0x124));france({'nomCom':_0x11c883(0x121),'reaction':'☠','nomFichier':__filename},async(_0x143f80,_0x1dd922,_0x5525f6)=>{const _0x2e812d=_0x11c883;console[_0x2e812d(0x12c)](_0x2e812d(0x131));let _0x40f94f='𝐘𝐨𝐡𝐡👊\x20𝐓𝐡𝐢𝐬\x20𝐢𝐬\x20*𝐇𝐔𝐍𝐂𝐇𝐎-𝐌𝐃*\x20\x20𝐂𝐫𝐞𝐚𝐭𝐞𝐝\x20𝐛𝐲\x20*𝐊𝐄𝐈𝐓𝐇\x20𝐊𝐄𝐈𝐙𝐙𝐀𝐇*☠\x20𝐏𝐥𝐞𝐚𝐬𝐞\x20𝐆𝐢𝐯𝐞\x20𝐚\x20𝐒𝐭𝐚𝐫\x20✨\x20𝐎𝐧\x20𝐓𝐡𝐞\x20𝐑𝐞𝐩𝐨\x20𝐀𝐧𝐝\x20𝐅𝐨𝐫𝐤\x20𝐈𝐭\x20☠\x20\x0a\x0a\x20'+_0x2e812d(0x127),_0x2defbf=_0x2e812d(0x12b),_0x395a6c=_0x40f94f+_0x2defbf;var _0x2abd46=_0x2e812d(0x12a);await _0x1dd922[_0x2e812d(0x128)](_0x143f80,{'video':{'url':_0x2abd46},'caption':_0x395a6c});}),console['log'](_0x11c883(0x11e));
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const { france } = require("../framework/france");
+
+france({ nomCom: "repo", catégorie:"Général", reaction: "☠", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+  const githubRepo = 'https://api.github.com/repos/keithkeizzah/HUNCHO-MD';
+  const img = 'https://telegra.ph/file/6301c0dea1346b7bdf349.mp4';
+
+  try {
+    const response = await fetch(githubRepo);
+    const data = await response.json();
+
+    if (data) {
+      const repoInfo = {
+        stars: data.stargazers_count,
+        forks: data.forks_count,
+        lastUpdate: data.updated_at,
+        owner: data.owner.login,
+      };
+
+      const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
+      const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
+
+      const gitdata = `Hello 👋,, @${membre.split("@")[0]}\n this is HUNCHO-MD created by Kᴇɪᴛʜ Kᴇɪᴢᴢᴀʜ kindly give a star🌟and fork my repository`
+𝄤 *REPOSITORY:* ${data.html_url}
+𝄤 *STARS:* ${repoInfo.stars}
+𝄤 *FORKS:* ${repoInfo.forks}
+𝄤 *RELEASE DATE:* ${releaseDate}
+𝄤 *UPDATE ON:* ${repoInfo.lastUpdate}
+𝄤 *OWNER* :keithkeizzah
+𝗧𝗛𝗔𝗡𝗞𝗦 𝗙𝗢𝗥 𝗖𝗛𝗢𝗢𝗦𝗜𝗡𝗚 𝗛𝗨𝗡𝗖𝗛𝗢`;
+
+      await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
+    } else {
+      console.log("Could not fetch data");
+    }
+  } catch (error) {
+    console.log("Error fetching data:", error);
+  }
+});
